@@ -1,0 +1,48 @@
+# SonarLint
+
+# Squaretest
+单元测试工具
+
+# GitToolBox
+
+# .ignore
+
+# Easy Code
+
+# Easy Javadoc
+
+# Lombok
+
+# Maven Helper
+
+# RestfulToolkit
+
+# Grep Console
+
+# CodeGlance
+
+# GenerateAllSetter
+
+# GenerateSerialVersionUID
+
+# GsonFormatPlus
+
+# Json Parser
+
+# Alibaba Java Coding Guidelines
+
+# Mybatis Log Free
+
+# MapStruct Support
+
+# MyBatisX
+
+# Sequence Diagram
+
+# Statistic
+
+# any-rule
+
+# CheckStyle-IDEA
+
+# TreeInfotip

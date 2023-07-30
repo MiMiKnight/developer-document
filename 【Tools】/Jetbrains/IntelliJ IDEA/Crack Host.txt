@@ -1,0 +1,26 @@
+# jetbrains破解
+0.0.0.0 account.jetbrains.com 
+0.0.0.0 oauth.account.jetbrains.com 
+0.0.0.0 jrebel.npegeek.com 
+0.0.0.0 account.jetbrains.com 
+0.0.0.0 oauth.account.jetbrains.com 
+0.0.0.0 jrebel.npegeek.com 
+0.0.0.0 account.jetbrains.com 
+0.0.0.0 oauth.account.jetbrains.com 
+0.0.0.0 jrebel.npegeek.com 
+0.0.0.0 account.jetbrains.com 
+0.0.0.0 oauth.account.jetbrains.com 
+0.0.0.0 jrebel.npegeek.com 
+0.0.0.0 account.jetbrains.com 
+0.0.0.0 oauth.account.jetbrains.com 
+0.0.0.0 jrebel.npegeek.com 
+0.0.0.0 account.jetbrains.com 
+0.0.0.0 oauth.account.jetbrains.com 
+0.0.0.0 jrebel.npegeek.com 
+0.0.0.0 account.jetbrains.com 
+0.0.0.0 oauth.account.jetbrains.com 
+0.0.0.0 jrebel.npegeek.com 
+0.0.0.0 account.jetbrains.com 
+0.0.0.0 oauth.account.jetbrains.com 
+0.0.0.0 jrebel.npegeek.com 
+127.0.0.1 activate.navicat.com

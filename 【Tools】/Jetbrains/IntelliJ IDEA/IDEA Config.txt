@@ -1,0 +1,34 @@
+
+# 设置全局字体大小
+Editor -> Font
+
+# 设置Java 导包(import)数量
+Editor -> Code Style -> Java -> imports
+Class count to use import with '*': 999
+Names count to use static import with '*': 999
+
+# 关闭自动打开项目
+Appearance&Behavior -> System Settings
+Off "Reopen projects on startup"
+
+# 设置项目默认文件夹
+Appearance&Behavior -> System Settings
+Default project directory
+
+#  关闭IDEA自动更新
+Appearance&Behavior -> System Settings -> Updates
+
+
+# 配置Maven
+
+# 设置响应后缀的文件隐藏不显示
+Editor -> Code Style -> File Types -> Ignored Files and Folders
+.iml
+
+# 设置文件编码
+Editor -> FileEncodings
+Gloable Encoding : UTF-8
+Project Encoding : UTF-8
+
+Default encoding for properties files: UTF-8
+Creat UTF-8 file: with NO BOM

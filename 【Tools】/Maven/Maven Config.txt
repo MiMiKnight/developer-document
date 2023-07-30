@@ -1,0 +1,4 @@
+
+# Maven编译时中文乱码
+设置JAVA_TOOL_OPTIONS全局环境变量
+JAVA_TOOL_OPTIONS = -Dfile.encoding=UTF-8
