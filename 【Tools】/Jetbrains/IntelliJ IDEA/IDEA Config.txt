@@ -24,6 +24,7 @@ Appearance&Behavior -> System Settings -> Updates
 # 设置响应后缀的文件隐藏不显示
 Editor -> Code Style -> File Types -> Ignored Files and Folders
 .iml
+.idea
 
 # 设置文件编码
 Editor -> FileEncodings
