@@ -1,0 +1,18 @@
+
+# 高版本idea 打开markdown文档 不显示
+原因：高版本ide内置jre为不支持JavaFX，需要修改idea内置jre版本
+
+# 下载适配idea的 jre
+https://github.com/JetBrains/JetBrainsRuntime
+https://github.com/JetBrains/JetBrainsRuntime/releases?page=6
+
+windows-x64
+JBR with JCEF (fastdebug)
+jbr_fd-11_0_15-windows-x64-b2043.56.tar.gz
+
+https://cache-redirector.jetbrains.com/intellij-jbr/jbr_fd-11_0_15-windows-x64-b2043.56.tar.gz
+
+双击shift => 选择Actions => 搜索"Choose Boot Java Runtime for the IDEA"(选择部分关键词搜索即可)
+=>找到下载的idea适配jre的安装位置
+
+修改过后发现，还是无法预览markdown，而且会导致兼容性问题，idea卡顿，故又恢复了idea原有的jre版本

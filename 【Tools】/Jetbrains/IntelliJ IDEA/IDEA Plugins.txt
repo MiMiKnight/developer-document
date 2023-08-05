@@ -15,7 +15,7 @@
 
 # Maven Helper
 
-# RestfulToolkitX
+# RestfulTool
 
 # Grep Console
 
