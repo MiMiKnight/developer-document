@@ -1,0 +1,45 @@
+
+# MySQL官方下载链接
+https://dev.mysql.com/downloads/mysql/
+
+# MySQL安装教程
+https://www.cnblogs.com/zhangkanghui/p/9613844.html
+
+# 配置my ini 配置文件
+
+# 安装教程
+1.配置mysql环境变量
+MySQL_HOME = D:\DevelopProgram\MySQL\mysql-8.0.34-winx64
+%MySQL_HOME%\bin
+
+2.初始化（生成随机密码）
+mysqld --initialize --console
+
+3.安装mysql
+mysqld --install MySQL8.0.34
+
+4.启动服务
+net start MySQL8.0.34
+
+5.打开CMD，登陆MySQL输入上面随机的密码，修改MySQL密码
+mysql -u root -p -P3306
+
+
+# 常用命令
+1.开启服务
+net start MySQL8.0.34
+sc start MySQL8.0.34
+
+2.停止服务
+net stop MySQL8.0.34
+sc stop MySQL8.0.34
+
+3.删除服务
+sc delete MySQL8.0.34
+mysqld --remove MySQL8.0.34
+
+4.查看mysql启动报错信息
+mysqld.exe --console
+
+
+
