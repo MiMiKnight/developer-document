@@ -76,14 +76,6 @@
   </servers>
 
   <mirrors>
-    <!--Maven官方仓库
-    <mirror>
-      <id>MavenCentral</id>
-      <mirrorOf>*</mirrorOf>
-      <name>Maven官方仓库</name>
-      <url>http://repo1.maven.org/maven2</url>
-    </mirror>
-	-->
     <!--阿里云镜像地址-->
     <mirror>
       <id>aliyunmaven</id>
@@ -101,17 +93,29 @@
   </mirrors>
 
   <profiles>
-    <!-- 全局配置项目JDK版本 -->
-    <profile>
-        <id>jdk11</id>
+  	<!-- JDK8 -->
+	<profile>
+        <id>jdk8</id>
         <activation>
             <activeByDefault>true</activeByDefault>
-            <jdk>11.0.2</jdk>
+            <jdk>1.8.0_371</jdk>
         </activation>
         <properties>
-            <maven.compiler.source>11</maven.compiler.source>
-            <maven.compiler.target>11</maven.compiler.target>
-            <maven.compiler.compilerVersion>11</maven.compiler.compilerVersion>
+            <maven.compiler.source>8</maven.compiler.source>
+            <maven.compiler.target>8</maven.compiler.target>
+            <maven.compiler.compilerVersion>8</maven.compiler.compilerVersion>
+        </properties>
+    </profile>
+	<!-- JDK17 -->
+	<profile>
+        <id>jdk17</id>
+        <activation>
+            <jdk>17.0.2</jdk>
+        </activation>
+        <properties>
+            <maven.compiler.source>17</maven.compiler.source>
+            <maven.compiler.target>17</maven.compiler.target>
+            <maven.compiler.compilerVersion>17</maven.compiler.compilerVersion>
         </properties>
     </profile>
   </profiles>
@@ -124,5 +128,8 @@
     <activeProfile>anotherAlwaysActiveProfile</activeProfile>
   </activeProfiles>
   -->
+  <activeProfiles>
+    <activeProfile>jdk8</activeProfile>
+  </activeProfiles>
   
 </settings>
