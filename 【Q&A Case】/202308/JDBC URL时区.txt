@@ -1,0 +1,6 @@
+# MariaDB 驱动不支持"useTimezone=true"参数设置时区
+useTimezone=true&serverTimezone=UTC
+
+
+# MySQL驱动支持"useTimezone=true"参数设置时区
+spring.datasource.url=jdbc:mysql://127.0.0.1:3306/db_panda?useUnicode=true&characterEncoding=utf8&useTimezone=true&serverTimezone=UTC&useSSL=false&allowMultiQueries=true

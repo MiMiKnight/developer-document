@@ -1,0 +1,4 @@
+
+# 根本原因Spring Boot版本与mybatis-spring-boot-starter不匹配
+mybatis-spring-boot-starter v2.3.1 适配 spring boot v2.7.12
+如果Spring Boot版本不是v2.7.12则会出现各种问题
